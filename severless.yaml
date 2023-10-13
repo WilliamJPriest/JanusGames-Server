@@ -1,8 +1,0 @@
-service: newsletter
-
-provider:
-  name: aws
-  runtime: python3.6
-  stage: dev
-  region: us-east-1
-  memorySize: 128

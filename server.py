@@ -1,5 +1,4 @@
 import json
-from typing import Self
 import mysql.connector
 
 mydb = mysql.connector.connect(
@@ -36,6 +35,6 @@ def lambda_handler(event, context):
 #   return awsgi.response(app, event, context, base64_content_types={"image/png"})
 
 if __name__ == '__main__':
-    Self.run(debug=True)
+    __name__.run(debug=True)
 
 
